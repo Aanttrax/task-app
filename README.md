@@ -1,16 +1,18 @@
 # TaskApp Angular 19.0.2.
 
-<!-- ![Portfolio logo](./screenShot/screenshot1.webp) -->
+![Portfolio logo](./screenShot/screenshot1.webp)
 
 This task project is built with Angular 19 and demonstrates a fully functional task management system with user authentication. Users can create, update, and delete tasks through a modern and intuitive interface, while login and registration features ensure secure access. The project leverages Angular's latest features, such as standalone components and typed forms, alongside Botstrap for responsive and polished UI design.
 
-Additionally, the project integrates CI/CD pipelines using GitHub Actions, automating build, test, and deployment workflows. Code quality is enforced through Husky and lint-staged pre-commit hooks. Deployed on GitHub Pages, this application showcases advanced Angular development practices combined with robust task management and authentication features. Visit the live demo at [Task Site](https://).
+The system is architected using microservices, including ms-auth for authentication, ms-task for task management, and an orchestrator to coordinate interactions between services, ensuring scalability and flexibility.
+
+Additionally, the project integrates CI/CD pipelines using GitHub Actions, automating build, test, and deployment workflows. Code quality is enforced through Husky and lint-staged pre-commit hooks. Deployed on GitHub Pages, this application showcases advanced Angular development practices combined with robust task management and authentication features. Visit the live demo at [Task Site](https://aanttrax.github.io/task-app/).
 
 ## Screenshots
 
-<!-- ![Screenshot 2](./screenShot/screenshot2.webp) -->
-<!-- ![Screenshot 3](./screenShot/screenshot3.webp) -->
-<!-- ![Screenshot 4](./screenShot/screenshot4.webp) -->
+![Screenshot 2](./screenShot/screenshot2.webp)
+![Screenshot 3](./screenShot/screenshot3.webp)
+![Screenshot 4](./screenShot/screenshot4.webp)
 
 ## 🚀 Features
 
