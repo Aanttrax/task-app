@@ -8,10 +8,9 @@ ENV NG_APP_API_URL=$NG_APP_API_URL
 
 WORKDIR /app
 COPY package*.json /app/
-RUN npm install
+RUN npm ci
 COPY . .
-RUN npm install -g @angular/cli
-RUN ng build
+RUN npm run build
 
 FROM nginx
 COPY nginx.conf /etc/nginx/nginx.conf
