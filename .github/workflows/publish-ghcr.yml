@@ -65,7 +65,7 @@ jobs:
 
       - name: Modify Base Href
         run: |
-          sed -i 's/RUN ng build/RUN ng build --base-href="\/task-app\/" --deploy-url="\/task-app\/"/' Dockerfile
+          sed -i 's/"build": "ng build"/"build": "ng build --base-href="\/task-app\/" --deploy-url="\/task-app\/""/' package.json
 
       - name: Tag Docker and build image with semantic version
         run: |
